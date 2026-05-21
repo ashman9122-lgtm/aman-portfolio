@@ -474,7 +474,7 @@ View Projects
 
 
               <Image
-                src="/aman.jpg"
+                src="/aman.JPG"
                 alt="Aman"
                 fill
                 priority
