@@ -202,11 +202,12 @@ Contact
 
       <section
         className="
-        relative z-10
-        max-w-6xl
-        mx-auto
-        px-3 sm:px-6 overflow-hidden
-        "
+relative z-10
+w-full
+max-w-none
+px-0
+overflow-hidden
+"
       >
 
         <div
@@ -216,11 +217,8 @@ grid-cols-2
 gap-2
 items-center
 
-scale-[0.38]
-sm:scale-[0.65]
-lg:scale-100
+scale-100
 
-origin-top
 
 min-h-[55vh]
 sm:min-h-[70vh]
