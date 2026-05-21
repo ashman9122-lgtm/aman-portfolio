@@ -205,14 +205,13 @@ Contact
         relative z-10
         max-w-6xl
         mx-auto
-        px-6
+        px-3 sm:px-6 overflow-hidden
         "
       >
 
         <div
           className="
           grid
-grid-cols-1
 lg:grid-cols-[1fr_0.85fr]
 gap-10
 items-center
@@ -238,9 +237,10 @@ px-4
 
             <h1
               className="
-              text-6xl
-sm:text-8xl
+              text-[48px]
+sm:text-[72px]
 lg:text-[120px]
+leading-none
               leading-[0.88]
               tracking-[-5px]
               font-black
@@ -447,9 +447,12 @@ View Projects
             <div
               className="
               relative
-              w-full
-max-w-[430px]
-h-[420px]
+             w-[180px]
+sm:w-[260px]
+lg:w-[430px]
+
+h-[260px]
+sm:h-[420px]
 lg:h-[620px]
 mx-auto
 
