@@ -212,11 +212,12 @@ Contact
         <div
           className="
           grid
-          grid-cols-1
-          lg:grid-cols-[1fr_0.85fr]
-          gap-10
-          items-center
-          min-h-[80vh]
+grid-cols-1
+lg:grid-cols-[1fr_0.85fr]
+gap-10
+items-center
+min-h-[80vh]
+px-4
           "
         >
 
@@ -237,7 +238,9 @@ Contact
 
             <h1
               className="
-              text-[92px]
+              text-6xl
+sm:text-8xl
+lg:text-[120px]
               leading-[0.88]
               tracking-[-5px]
               font-black
@@ -444,8 +447,11 @@ View Projects
             <div
               className="
               relative
-              w-[430px]
-              h-[620px]
+              w-full
+max-w-[430px]
+h-[420px]
+lg:h-[620px]
+mx-auto
 
               rounded-[44px]
 
@@ -585,8 +591,8 @@ Skills
 className="
 grid
 
-grid-cols-1
-sm:grid-cols-2
+grid-cols-2
+md:grid-cols-2
 
 gap-5
 "
