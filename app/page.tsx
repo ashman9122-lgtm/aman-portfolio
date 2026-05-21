@@ -217,7 +217,9 @@ grid-cols-2
 gap-2
 items-center
 
-min-h-[80vh]
+min-h-[130vh]
+lg:min-h-[80vh]
+
 px-2
 overflow-hidden
 "
