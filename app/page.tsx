@@ -212,6 +212,7 @@ Contact
         <div
           className="
           grid
+          grid-cols-1
           lg:grid-cols-[1fr_0.85fr]
           gap-10
           items-center
@@ -481,6 +482,7 @@ View Projects
                 className="
                 object-cover
                 object-center
+                opacity-80
                 hover:scale-[1.02]
                 duration-500
                 "
