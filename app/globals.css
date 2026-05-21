@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#040815;
+}
+.project-card{
+
+transition:.4s;
+
+}
+
+.project-card:hover{
+
+transform:
+translateY(-10px);
+
+}
+body{
+
+background:
+radial-gradient(
+circle at top,
+#071429,
+#040815
+);
+
+}
