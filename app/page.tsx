@@ -201,16 +201,12 @@ Contact
       {/* HERO */}
 
       <section
-className="
+        className="
 relative z-10
 w-full
 max-w-none
 px-0
-
-min-h-[100vh]
-lg:min-h-auto
-
-overflow-visible
+overflow-hidden
 "
       >
 
