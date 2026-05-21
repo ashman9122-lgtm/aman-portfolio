@@ -212,18 +212,14 @@ Contact
         <div
           className="
 grid
-grid-cols-[1.1fr_0.9fr]
+grid-cols-2
 
-gap-4
+gap-2
 items-center
 
-scale-[0.52]
-sm:scale-[0.75]
-lg:scale-100
-
-origin-top
 min-h-[80vh]
-px-0
+px-2
+overflow-hidden
 "
         >
 
@@ -244,7 +240,7 @@ px-0
 
             <h1
               className="
-              text-[48px]
+              text-[32px]
 sm:text-[72px]
 lg:text-[120px]
 leading-none
@@ -265,7 +261,7 @@ leading-none
 
             <h2
               className="
-              text-4xl
+              text-lg sm:text-2xl lg:text-4xl
               font-bold
               mt-5
               "
