@@ -585,10 +585,10 @@ Skills
 className="
 grid
 
-grid-cols-2
-md:grid-cols-4
+grid-cols-1
+sm:grid-cols-2
 
-gap-6
+gap-5
 "
 >
 
@@ -1104,7 +1104,9 @@ href="mailto:amanrajvitvellore@gmail.com"
 
 className="
 text-cyan-400
-text-2xl
+text-lg
+sm:text-2xl
+break-all
 "
 >
 
