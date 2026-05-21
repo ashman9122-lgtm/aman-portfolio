@@ -213,15 +213,21 @@ Contact
           className="
 grid
 grid-cols-2
-
 gap-2
 items-center
 
-min-h-[130vh]
+scale-[0.38]
+sm:scale-[0.65]
+lg:scale-100
+
+origin-top
+
+min-h-[55vh]
+sm:min-h-[70vh]
 lg:min-h-[80vh]
 
-px-2
-overflow-hidden
+px-0
+overflow-visible
 "
         >
 
