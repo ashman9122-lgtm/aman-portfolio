@@ -211,13 +211,20 @@ Contact
 
         <div
           className="
-          grid
-lg:grid-cols-[1fr_0.85fr]
-gap-10
+grid
+grid-cols-[1.1fr_0.9fr]
+
+gap-4
 items-center
+
+scale-[0.52]
+sm:scale-[0.75]
+lg:scale-100
+
+origin-top
 min-h-[80vh]
-px-4
-          "
+px-0
+"
         >
 
           {/* LEFT */}
