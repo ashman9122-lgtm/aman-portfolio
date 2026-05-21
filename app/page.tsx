@@ -202,12 +202,11 @@ Contact
 
       <section
         className="
-relative z-10
-w-full
-max-w-none
-px-0
-overflow-hidden
-"
+        relative z-10
+        max-w-6xl
+        mx-auto
+        px-3 sm:px-6 overflow-hidden
+        "
       >
 
         <div
